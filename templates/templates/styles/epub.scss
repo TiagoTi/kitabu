@@ -1,1 +1,9 @@
 @import './files/normalize';
+
+.nobull{
+  list-style-type: none;
+}
+
+li a{
+  text-decoration: none;
+}

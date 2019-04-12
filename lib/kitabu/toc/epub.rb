@@ -24,7 +24,7 @@ module Kitabu
             </head>
             <body>
               <div id="toc">
-                <ul>
+                <ul class="nobull">
                   <% navigation.each do |nav| %>
                     <li>
                       <a href="<%= nav[:content] %>"><%= nav[:label] %></a>
