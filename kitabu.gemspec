@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name                  = "kitabu"
   s.version               = Kitabu::Version::STRING
   s.platform              = Gem::Platform::RUBY
-  s.required_ruby_version = ">= 2.0"
+  s.required_ruby_version = ">=2.4.6"
   s.authors               = ["Nando Vieira"]
   s.email                 = ["fnando.vieira@gmail.com"]
   s.homepage              = "http://rubygems.org/gems/kitabu"
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency "thor"
   s.add_dependency "redcarpet"
   s.add_dependency "eeepub-with-cover-support"
-  s.add_dependency "rouge", "~> 2.0"
+  s.add_dependency "rouge"
   s.add_dependency "notifier"
   s.add_dependency "rubyzip"
   s.add_dependency "zip-zip"
